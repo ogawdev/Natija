@@ -56,7 +56,7 @@ app.post("/api", async (req: Request, res: Response) => {
 });
 
 // Telegram bot
-const bot = new TelegramBot("6327062958:AAGKBH0qgWiBDXKubKd2xFEYRLxhW704iZ4", { polling: true });
+const bot = new TelegramBot("6330597523:AAHjJo9XS8fvr4Hkdv1EB2JvfbdRPGd_xmI", { polling: true });
 
 bot.on('message', async (msg) => {
     try {
